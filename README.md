@@ -8,4 +8,4 @@ https://storage.googleapis.com/place_events/tile_placements.csv.gz
 There's not much to this program. Simply clone the repository and compile and run Main.java. There's no GUI right now other than the display, so if you want to change parameters you have to go into the code to do it.
 
 # Data storage
-The data gets stored into a 3D int array that is 1000x1000x17. The first two indicies are the x and y coordinates respectively. the last array is the 16 colors and a 17th value that represents the last color value placed on the image. For more explanation on the colros and data, see this thread: https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/
+The data gets stored into a 3D int array that is 1000x1000x17. The first two indicies are the x and y coordinates respectively. the last array is the frequency for each of the 16 colors and a 17th value that represents the last color value placed on the image. For more explanation on the colros and data, see this thread: https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/
